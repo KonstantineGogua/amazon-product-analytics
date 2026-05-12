@@ -18,17 +18,41 @@ The goal of the project was to build a complete analytics workflow starting from
 
 
 
+\## Dashboard Preview
+
+
+
+!\[Dashboard Overview](screenshots/header.png)
+
+
+
+\---
+
+
+
+\## SQL Analysis Example
+
+
+
+!\[SQL Analysis](screenshots/Highest Average Discounts.png)
+
+
+
+\---
+
+
+
 \## Tools Used
 
 
 
-&#x20;Python (Pandas)
+\* Python (Pandas)
 
-&#x20;MySQL
+\* MySQL
 
-&#x20;Power BI
+\* Power BI
 
-&#x20;CSV Data Processing
+\* CSV Data Processing
 
 
 
@@ -54,17 +78,41 @@ The goal of the project was to build a complete analytics workflow starting from
 
 
 
-\## Key Insights
+\## Dashboard Features
 
 
 
-&#x20;Most products maintain ratings between 3.8 and 4.5 regardless of price
+\### KPI Cards
 
-&#x20;Electronics categories dominate customer engagement and review activity
 
-&#x20;Higher discounts do not necessarily result in higher product ratings
 
-&#x20;Product popularity is concentrated among a relatively small number of products
+\* Average Rating
+
+\* Average Discount %
+
+\* Total Products
+
+\* Total Reviews
+
+
+
+\### Interactive Features
+
+
+
+\* Category slicer for dynamic filtering
+
+
+
+\### Visualizations
+
+
+
+\* Average Rating by Category
+
+\* Top Reviewed Products
+
+\* Price vs Product Rating Scatter Plot
 
 
 
@@ -72,37 +120,33 @@ The goal of the project was to build a complete analytics workflow starting from
 
 
 
-\## Dashboard Features
+\## Additional Dashboard Visuals
 
 
 
-&#x20;KPI Cards
+
+
+!\[Top Reviewed Products](screenshots/lower.png)
 
 
 
-&#x20;  Average Rating
 
-&#x20;  Average Discount %
 
-&#x20;  Total Products
-
-&#x20;  Total Reviews
+\---
 
 
 
-&#x20;Interactive Category Slicer
+\## Key Insights
 
 
 
-&#x20;Visualizations
+\* Most products maintain ratings between 3.8 and 4.5 regardless of price
 
+\* Electronics categories dominate customer engagement and review activity
 
+\* Higher discounts do not necessarily result in higher product ratings
 
-&#x20;  Average Rating by Category
-
-&#x20;  Top Reviewed Products
-
-&#x20;  Price vs Product Rating Scatter Plot
+\* Product popularity is concentrated among a relatively small number of products
 
 
 
@@ -114,17 +158,17 @@ The goal of the project was to build a complete analytics workflow starting from
 
 
 
-Example SQL queries included
+SQL queries included:
 
 
 
-&#x20;Highest rated categories
+\* Highest rated categories
 
-&#x20;Most reviewed products
+\* Most reviewed products
 
-&#x20;Discount analysis
+\* Discount analysis
 
-&#x20;Premium product analysis
+\* Premium product analysis
 
 
 
@@ -136,31 +180,23 @@ Example SQL queries included
 
 
 
-amazon-product-analytics
+```text
 
-├── data
+amazon-product-analytics/
 
-├── scripts
+├── data/
 
-├── sql
+├── scripts/
 
-├── dashboard
+├── sql/
 
-├── screenshots
+├── dashboard/
+
+├── screenshots/
 
 └── README.md
 
-
-
-\---
-
-
-
-\## Dashboard Preview
-
-
-
-(Add dashboard screenshots here)
+```
 
 
 
@@ -172,7 +208,7 @@ amazon-product-analytics
 
 
 
-Konstantine Gogua
+Konstantin Gogua
 
 
 
